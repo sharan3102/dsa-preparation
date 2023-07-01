@@ -1,0 +1,5 @@
+if (root != null) {
+            postOrder(root.left);
+            postOrder(root.right);
+            System.out.print(root.data + " ");
+}
